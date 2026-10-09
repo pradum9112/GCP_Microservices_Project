@@ -1,0 +1,34 @@
+# Dependencies / Node Modules
+node_modules/
+jspm_packages/
+
+# Environment Variables & Secret Files
+.env
+.env.local
+.env.*.local
+
+# Build Outputs & Production Files
+dist/
+build/
+.next/
+out/
+
+# Logs & Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS Specific Files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
